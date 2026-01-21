@@ -1,0 +1,117 @@
+{{Short description|Board game}}
+{{italic title}}
+''So Long Sucker'' is a [[board game]] invented in 1950 by Mel Hausner, [[John Forbes Nash Jr.|John Nash]], [[Lloyd Shapley]], and [[Martin Shubik]].<ref>{{cite book |last1=Hausner |first1=Mel |last2=Nash |first2=John |last3=Shapley |first3=Lloyd |last4=Shubik |first4=Martin |date=1964 |editor-last=Shubik |editor-first=Martin |title=Game Theory and Related Approaches to Social Behavior: Selections |location= New York |publisher=Wiley |pages=359–361 |chapter=So Long Sucker - A Four-Person Game |isbn=9780471789635}}</ref> It is a four-person bargaining/economic strategy game. Each player begins the game with seven chips of the same color, and in the course of play, attempts to acquire all of the chips of all the other players. This requires making agreements with the other players, which are ultimately unenforceable. To win, players must eventually go back on such agreements. The game takes approximately 60 minutes to play.<ref>{{cite web |url=https://boardgamegeek.com/boardgame/8304/so-long-sucker |title=So Long Sucker |website=Board Game Geek |access-date=2022-12-04}}</ref>
+
+== Overview of the game ==
+In this game for four players, each player starts out with seven chips of their own color. As play goes on, players exchange chips with other players so it is advised to use an extra chip just to indicate which player originally owned which color. The game ends when only one person holds any chips. A player is defeated when they cannot play any chips and they leave the game.
+
+=== Gameplay ===
+On each turn, a chip is played in the middle of the table, either starting a new pile, or adding onto an existing pile. Once a chip is added on top of another chip of the same color (so the two chips of the same color are directly on top of each other), a '''capture''' is made and the player of that color receives the whole pile of chips. They eliminate one of these chips from the game and they take the next turn. This player now likely holds chips of different players. These chips are referred to as '''prisoners'''.
+
+Prisoners can be played by a player like a chip of their own (which may result in someone else taking the pile). At any point, any player may eliminate one or multiple of their prisoners from the game entirely, or give prisoners to other players. Thus, prisoners are often referred to as ''insurance'' (you can threaten to discard the chips of an imprisoned player in exchange of benefits), or ''bargaining chips''. All agreements are non-binding (there is no rule defining or enforcing agreements) and all communications are public.
+
+Note that the chips of a captured pile are handed to the player whose color is being used to make the capture, which may not be the same player who is making the capture. For example, the blue player may initiate a capture with white chips if they add a white chip to another white chip that is already present on top of a pile. All chips of that pile go to the white player.
+
+If two consecutive chips of the same color are played and player of that color has been defeated, the whole pile of chips is eliminated from the game.
+
+=== Taking turns ===
+The game starts with a random player. After their turn, they can choose who goes next (including themselves), as long as they abide by the following rule: ''the next player's color may not be in the most recently touched pile (including a new pile that was just created)''. For example, if the red player starts a new pile with a red chip, they can choose any other player except themselves to go next. If the red players adds a red chip to a pile of green and blue chips (from top to bottom), then white goes next. 
+
+It happens regularly that all players are represented in a pile. Therefore, the actual procedure to determine the next player can be stated as follows: ''each player notes their highest chip in the pile (starting from the top), and the player who has the lowest position takes the next turn.'' Or, more formally: ''after playing the chip, move through the pile from top to bottom until only one eligible player is left, or the end of the pile is reached and there are multiple eligible players left, in which case the current player can choose who of them goes next''. A common misconception is that the player who owns the lowest chip is chosen as the next player, but this is wrong as it would mean they would be the designated next player every time a chip is added to that pile. 
+
+==== Example ====
+To illustrate the correct execution of this rule, consider a pile of (from top to bottom) red, blue, red, green, white, green. If someone adds a blue token, then the blue (1st chip from the top, 3 eligible players remaining), red (2nd chip, 2 players remaining), blue (3rd chip, 2 players remaining), red (4th chip, 2 players remaining), and green (5th chip, 1 player remaining) players are eliminated as eligible players to go next and only white is left as an eligible player, see the Table below.
+{| class="wikitable"
+|+
+!
+!Chip position
+!Chip Color
+!Procedure
+!Alternative procedure of
+tracking eligible players
+|-
+|Top of the stack
+|1st
+|Blue
+|Blue's highest chip is at position 1
+|Green, Red, White (Blue is not eligible anymore)
+|-
+|
+|2nd
+|Red
+|Red's highest chip is at position 2
+|Green, White (Red is not eligible anymore)
+|-
+|
+|3rd
+|Blue
+|
+|Green, White
+|-
+|
+|4th
+|Red
+|
+|Green, White
+|-
+|
+|5th
+|Green
+|Green's highest chip is at position 5
+|White (Green is not eligible anymore)
+|-
+|
+|6th
+|White
+|White's highest chip is at position 6
+This is the lowest position of all players making White the next player.
+|As only one eligible player is left, white is the next player.
+|-
+|Bottom of the stack
+|7th
+|Green
+|
+|
+|}
+Importantly, ''it does not matter who played the chip, only the color of the chips in the pile matter''. Thus, based on the example from the table, if the white player played the blue token, they get to take another turn. If they would add another blue chip to this pile in that turn, there are two consecutive chips of the same color and blue receives all these chips, eliminates one, and takes the next turn.
+
+Any defeated players are ignored when determining order of play. So in the table above, if white were a defeated player, green would be the next player.
+
+=== Elimination ===
+Elimination or defeat occurs when a player has the next turn but has no chips left to play. The player could beg for prisoner chips from the other players before it is their turn to stay alive. The chips of eliminated players that are already in play stay in play, but they are never used to determine the next player. 
+
+Upon defeat, the turn is given back to the person who gave their turn to the defeated player (note that this can start a chain reaction of defeat if this next player is also defeated in their turn, handing their turn to whoever gave them the turn). If two consecutive chips of the same color are played and the original owner of that color has been defeated, the whole pile of chips is eliminated from the game, and the player who played the chip gets another turn.
+
+== Rules ==
+The rules are as follows:<ref>{{cite web |url=http://www.lucs.lu.se/Courses/Spel/Parlor/Sucker.html |title=So Long Sucker |date=2001 |website=Lund University |archive-url=https://web.archive.org/web/20010602085925/http://www.lucs.lu.se/Courses/Spel/Parlor/Sucker.html |access-date=2022-12-04|archive-date=2001-06-02 }}</ref>
+# Starting a game:
+#* Four players are required.
+#* Each player takes seven chips of one color (so that each player has their own distinct color), and all chips must remain visible at all times.
+#* One player is randomly selected as the first player to move.
+# Playing the game:
+#* If a player has a chip that is not their color, it is referred to as their '''prisoner'''.
+#* Players move by playing one of their chips of any color (due to capturing prisoners) onto the playing area, starting a new pile, or on top of any existing chip(s) in the playing area.
+#* There are three possible outcomes:
+#*# If the top two chips are the same color, the whole pile is '''captured'''. The player of the color corresponding to the color the capture was made with removes one of the chips from the game and takes the remaining chips, then they take the next move.
+#*# If a color is missing from the pile, the player selects the next person to move, as long as that player does not have a color in the pile.
+#*# If all four colors are in the pile, the player whose top chip is furthest down in the stack is the next player to move.
+#* If a player is unable to move, they become '''defeated''' and are unable to move for the remainder of the game. The move returns to the player who gave the defeated player the move. If this should also defeat that player in turn, whoever gave that player the move will get the next turn, etc.
+#* Prisoners may be transferred or removed from the game at any time, including immediately before a player is defeated, potentially allowing them to move, and stopping them from being defeated.
+#* Deals may be made, but all deals are public and nonbinding.
+#* A defeated player's chips remain in play, but are ignored when determining order of play. In the case where a capture is made with the defeated player's color, as the defeated player is definitionally unable to move, play rebounds to the player who made the capture.
+# Winning the game:
+## The winner is the last surviving player (after the others have been defeated).
+## A player can win even if they hold no chips and all of their chips have been killed.
+# Strategy:
+## Coalitions, or agreements to cooperate, are permitted, and may take any form.
+## There is no penalty for failure to live up to an agreement.
+## Players are freely allowed to confer ''only at the table during the game''–no secret or prior agreements are allowed.
+
+== Alternative name ==
+Nash's original name for the game was ''Fuck You, Buddy''<!-- NOTE: The book says "Your", Curtis's documentary uses "You" -->.<ref>{{cite book |last=Nasar |first=Sylvia |author-link=Sylvia Nasar |date=1998 |title=A Beautiful Mind | title-link=A Beautiful Mind (book) |location=New York |publisher=Simon and Schuster |isbn=9780684819068}}</ref> The first episode of [[Adam Curtis]]'s documentary [[The Trap (television documentary series)|''The Trap'']], which looks at Nash's work, is titled "F**k You Buddy".<ref>{{cite web |url=https://www.imdb.com/title/tt4048840/?ref_=ttep_ep1 |title=F**K You, Buddy |website=IMDb |access-date=2012-12-04}}</ref>
+
+==References==
+{{Reflist}}
+
+[[Category:Board games introduced in 1950]]
+[[Category:Abstract strategy games]]
