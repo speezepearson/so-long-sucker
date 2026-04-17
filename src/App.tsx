@@ -80,8 +80,18 @@ function HomePage({ onJoinGame }: { onJoinGame: (id: Id<"games">) => void }) {
 
   const createGame = useMutation(api.games.createGame);
 
-  // Check for game code in URL hash and auto-navigate to game view
-  const hashCode = window.location.hash.slice(1).toUpperCase();
+  // Track URL hash in state so React re-renders when it changes (e.g. after
+  // clicking Join or hitting Enter, which set window.location.hash).
+  const [hashCode, setHashCode] = useState(() =>
+    window.location.hash.slice(1).toUpperCase()
+  );
+  useEffect(() => {
+    const onHashChange = () => {
+      setHashCode(window.location.hash.slice(1).toUpperCase());
+    };
+    window.addEventListener("hashchange", onHashChange);
+    return () => window.removeEventListener("hashchange", onHashChange);
+  }, []);
   const isValidCode = /^[A-Z]{4}$/.test(hashCode);
 
   // Query for game if there's a valid code in the hash
